@@ -1,0 +1,148 @@
+body {
+ background: url("https://i.pinimg.com/originals/ef/82/9e/ef829e29e0b4ee6a79999ecdb1a7b3fa.jpg");
+  background-size: cover;
+ font-family: 'Hepta Slab', serif;
+}
+
+
+section {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    background: #dad0d0db;
+    box-shadow: 6px 6px 6px #c2f5f5;
+    padding: 15px;
+    border-radius: 20px;
+    color: #1C1C1C;
+  max-width: 600px;
+}
+
+section h1 {
+  font-weight: 400;
+    font-size: 22px;
+    color: #25282b;
+}
+
+section h3 {
+   font-weight: 200;
+  font-size:10px;
+  color: #25282b;
+  margin-top: -20px;
+}
+
+
+section h1 .link-icon:hover {
+  color: var(--purple);
+}
+
+section h1 .link-icon {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--comment);
+  transition: color 0.2s;
+}
+
+header {
+  background-image: url("https://miro.medium.com/max/1000/1*Q5_t-R0xRs07wW1Kf8rCSw.gif");
+  background-size: cover;
+  background-position: right;
+  border-radius: 5px;
+}
+
+.projetos {
+  padding: 8px;
+    background: linear-gradient(
+230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgb(0 0 0);
+    border-radius: 20px;
+  
+}
+
+div h2 {
+  color: var(--comment);
+}
+
+div ol > li:hover {
+  color: var(--green);
+}
+
+div ol > li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+img {
+  width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    display: block;
+    margin-left: -;
+    margin-right: auto;
+    box-shadow: 6px 6px 6px #f37a7a78;
+    transform: translateY(-36%);
+    border: 8px solid white;
+}
+
+.lista-links {
+  display: none;
+  color: var(--comment);
+}
+
+.link-icon:hover {
+  color: var(--orange);
+}
+
+.link-icon {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--foreground);
+  transition: color 0.2s;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 8px 16px;
+  background: #ECF4FF;
+border: 2px solid #0E1D2F;
+box-sizing: border-box;
+border-radius: 100px;
+}
+
+
+.dark {
+  background: url("https://i.pinimg.com/originals/37/ef/b1/37efb13aebc8d4e3e3ada903f8847410.jpg");
+}
+
+.dark section {
+  background: linear-gradient( 
+66deg, #02070e 27.26%, #35363c 96.03%);
+ box-shadow: 6px 6px 6px #a8f760c2;
+  color: #F7F7F7;
+} 
+
+.dark .projetos {
+  background: linear-gradient(
+230.65deg, #091b31 27.49%, #354961 83.19%);
+    box-shadow: 2px 2px 4px rgb(145 219 226 / 42%);
+}
+.dark section h1 {
+  font-weight: 400;
+    font-size: 22px;
+    color: #F7F7F7;
+}
+
+.dark section h3 {
+   font-weight: 200;
+  font-size:10px;
+  color: #F7F7F7;
+  margin-top: -20px;
+}
+.dark .tema button {
+  background:#1C1C1C;
+    color: #F7F7F7;
+  border: 2px solid #F7F7F7;
+}
